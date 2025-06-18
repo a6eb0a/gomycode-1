@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Workshop | Tailwind </title>
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="icon" type="image/png" href="/images/logo.png">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet"> 
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="px-2 font-[Montserrat] bg-[#154284] md:px-10">
+
+
+<nav class="">
+
+  <div class="text-right mx-auto py-2">
+
+    <button type="button" class="px-2 py-1 text-sm text-gray-500 bg-[#181733] border-gray-200 rounded-[.4rem] md:hidden_ hover:bg-gray-100">
+      <i class="fa fa-soccer-ball-o"></i>
+    </button>
+
+    <button type="button" class="px-2 py-1 text-sm text-gray-500 bg-[#181733] border-gray-200 rounded-[.4rem] md:hidden_ hover:bg-gray-100">
+      <i class="fa fa-user"></i>
+    </button>
+
+  </div>
+
+  <div class="relative flex flex-wrap items-center justify-between mx-auto mt-0 p-1 bg-[#181733] border-gray-200 rounded-[.8rem] md:p-3">
+
+    <a href="" class="ml-3 absolute top-[-1.2rem] md:top-[-1rem]">
+      <img src="images/logo.png" class="h-[80px]" alt="Logo" />
+    </a>
+
+    <span class="inline-block text-2 ml-26 text-[#fff] font-semibold md:ml-26">Brown Yellow Legion</span>
+
+    <button type="button" class="inline-block p-2 w-10 h-10 text-gray-500 rounded-lg bg-blue-800 md:hidden hover:bg-gray-100">
+      <i class="fa fa-list text-[3rem] text-[#ccc]"></i>
+    </button>
+
+    
+      <ul class="hidden items-center justify-between md:flex">
+        <li class="px-2">
+          <a href="#team" class="block text-blue-700 hover:underline">Team</a>
+        </li>
+        <li class="px-2">
+          <a href="#matches" class="block text-[#cd122d] hover:underline">Matches</a>
+        </li>
+        <li class="px-2">
+          <a href="#news" class="block text-[#cd122d] hover:underline">News</a>
+        </li>
+        <li class="px-2">
+          <a href="#tickets" class="block text-[#cd122d] hover:underline">Tickets</a>
+        </li>
+      </ul>
+
+  </div>
+</nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- main -->
+  <main class="
+    bg-gray
+    text-center
+  ">
+
+
+
+  <!-- header -->
+  <section class="
+    relative
+    mt-5
+    p-0
+  ">
+
+
+
+
+
+
+
+    <div class="flex-wrap mb-[1rem] mt-2 py-2 px-2 items-start 
+    bg-[#181733]
+    rounded-[1rem]
+    
+    
+    
+
+    sm:flex
+    sm:px-4
+    
+    ">
+
+      <!-- <div class="block w-[50%] h-[100%] p-0 bg-[#181733] border-gray-200 rounded-[.7rem] bg-[blue] w-[50%]"> -->
+
+      <div class="block w-[100%] h-[100%] p-4 text-center
+      
+    sm:w-[50%]
+    sm:text-left
+
+      
+      ">
+
+        <span class="block px-4 py-2 text-[12px] text-[#181733] bg-[#cd122d] border-gray-200 rounded-[3rem]
+        sm:inline-block
+        ">2024 Season Champions</span>
+
+        <h4 class="block mt-4 text-[25px] text-[#f5b701]
+        sm:text-left">Brown Yellow Legion</h4>
+          
+        <p class="block mt-4 text-[16px] text-[#eee]
+        sm:text-left">
+          Successful soccer teams understand the importance of nurturing both types of motivation. Discover how internal motivation can be reinforced through goal setting, a sense of purpose, and a growth mindset. Explore how external motivation can be fostered through positive feedback, recognition, and team unity.
+        </p>
+
+      </div>
+
+      <div class="relative w-[100%] px-2 py-2
+      
+      sm:w-[50%]
+      sm:py-3
+
+
+
+      ">
+
+      
+        <video autoplay muted loop class="w-full rounded-[1rem] bg-[#fff]">
+          <source src="images/Barcelona_.mp4" type="video/mp4">
+        </video>
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+
+    
+
+
+    <ul class="flex mb-[1rem] mt-2 md:p-0 items-center justify-between">
+      <li class="w-[50%] pr-2">
+        <button type="button" class="block w-full px-2 py-3 text-sm text-[#181733] bg-[#f5b701] rounded-[.7rem] hover:bg-gray-100">
+          Get Season Tickets
+          <i class="fa fa-align-center"></i>
+        </button>
+      </li>
+      <li class="w-[50%] pl-2">
+        <button type="button" class="block w-full px-2 py-3 text-sm text-[#181733] bg-[#f5b701] rounded-[.7rem] hover:bg-gray-100">
+          Get Season Tickets
+          <i class="fa fa-align-center"></i>
+        </button>
+      </li>
+
+    </ul>
+
+
+  </section>
+
+
+
+
+
+
+  <!-- header -->
+  <section class="
+    mt-5
+    py-5
+    px-5
+    bg-[#181733]
+    rounded-[1rem]
+    text-center
+  ">
+
+  
+    
+
+
+    <ul class="flex-row mb-[1rem] mt-2 md:p-0 items-center justify-around sm:flex">
+
+      <li class="mb-7 sm:mb-0">
+        <span class="block p-0 text-[2rem] text-[#181733] text-[#f5b701]">39</span>
+        <b class="block mt-1rem text-sm text-[#fff]">Years Of Excellence</b>
+      </li>
+
+      <li class="mb-7 sm:mb-0">
+        <span class="block p-0 text-[2rem] text-[#181733] text-[#f5b701]">12</span>
+        <b class="block mt-1rem text-sm text-[#fff]">Championship Titles</b>
+      </li>
+
+      <li class="mb-7 sm:mb-0">
+        <span class="block p-0 text-[2rem] text-[#181733] text-[#f5b701]">25k+</span>
+        <b class="block mt-1rem text-sm text-[#fff]">Season Ticket holders</b>
+      </li>
+
+      <li class="mb-7 sm:mb-0">
+        <span class="block p-0 text-[2rem] text-[#181733] text-[#f5b701]">45k</span>
+        <b class="block mt-1rem text-sm text-[#fff]">Stadium Capacity</b>
+      </li>
+
+
+    </ul>
+
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="matches" class="mt-5 px-5 py-[4rem] bg-[#181733] rounded-[1rem] 
+    sm:px-5 sm:py-10">
+
+      <h4 class="block text-center text-[2rem] text-[#ccc]">Brown Yellow Legion</h4>
+      <p class="block w-[70%] mt-2 mx-auto text-center text-[1rem] text-[#ccc]">L’accès gratuit au site (hors contenus exclusifs abonnés) est subordonné à votre consentement sur l’utilisation de vos données personnelles</h4>
+
+
+
+      <div class="flex-wrap justify-around items-center text-[.8rem] mt-10
+      
+      
+    sm:flex
+    sm:justify-between
+    sm:p-0
+
+
+    
+    ">
+
+        <!-- item-1 -->
+        <div class="relative mb-3 p-8 border border-[#fdc52c] bg-[#154284] rounded-[1rem] w-[100%] sm:w-[31.33%] sm:mx-[1%]
+        
+        transform transition-transform duration-300 hover:-translate-y-2 hover:bg-[#11366e]
+        ">
+
+          <div class="flex justify-center items-center text-[#fff] ">
+            <span class="mr-auto px-[.6rem] py-[.2rem] rounded-[1rem] bg-[#fdc52c] text-[#181733]">Home</span>
+            <i class="fa fa-calendar-minus-o text-[#ccc]"></i>
+            <b class="ml-[.3rem] text-normal font-normal text-[#ccc]">Wed 15, 2024</b>
+          </div>
+
+          <div class="flex justify-between items-center mt-[1rem] text-[#fdc52c]">
+            <span class="text-[1rem]">BYL</span>
+            <b class="font-normal">vs</b>
+            <span class="text-[1rem]">Lightning United</span>
+          </div>
+
+          <div class="block mt-[.5rem] text-left text-[#ccc]">
+            <i class="fa fa-map-marker mr-[.3rem]"></i>
+            <span>Thunder Stadium</span>
+          </div>
+
+          <div class="block mt-[.5rem] text-center">
+            <button class="block w-full mt-[2rem] px-[.4rem] py-[.2rem] bg-[#fdc52c] text-[#181733]">Buy Tickets</button>
+          </div>
+
+        </div>
+
+
+
+        <!-- item-1 -->
+        <div class="relative mb-3 p-8 border border-[#fdc52c] bg-[#154284] rounded-[1rem] w-[100%] transform transition-transform duration-300 hover:-translate-y-2 hover:bg-[#11366e] sm:w-[31.33%] sm:mx-[1%]">
+
+          <div class="flex justify-center items-center text-[#fff] ">
+            <span class="mr-auto px-[.6rem] py-[.2rem] rounded-[1rem] bg-[#fdc52c] text-[#181733]">Away</span>
+            <i class="fa fa-calendar-minus-o text-[#ccc]"></i>
+            <b class="ml-[.3rem] text-normal font-normal text-[#ccc]">Wed 15, 2024</b>
+          </div>
+
+          <div class="flex justify-around items-center mt-[1rem] text-[#fdc52c]">
+            <span class="text-[1rem]">Storm City</span>
+            <b class="font-normal">vs</b>
+            <span class="text-[1rem]">BYL</span>
+          </div>
+
+          <div class="block mt-[.5rem] text-left text-[#ccc]">
+            <i class="fa fa-map-marker mr-[.3rem]"></i>
+            <span>Storm Arena</span>
+          </div>
+
+          <div class="block mt-[.5rem] text-center">
+            <button class="block w-full mt-[2rem] px-[.4rem] py-[.2rem] bg-[#fdc52c] text-[#181733]">Buy Tickets</button>
+          </div>
+
+        </div>
+
+
+
+        <!-- item-1 -->
+        <div class="relative mb-3 p-8 border border-[#fdc52c] bg-[#154284] rounded-[1rem] w-[100%] transform transition-transform duration-300 hover:-translate-y-2 hover:bg-[#11366e] sm:w-[31.33%] sm:mx-[1%]">
+
+          <div class="flex justify-center items-center text-[#fff] ">
+            <span class="mr-auto px-[.6rem] py-[.2rem] rounded-[1rem] bg-[#fdc52c] text-[#181733]">Home</span>
+            <i class="fa fa-calendar-minus-o text-[#ccc]"></i>
+            <b class="ml-[.3rem] text-normal font-normal text-[#ccc]">Wed 15, 2024</b>
+          </div>
+
+          <div class="flex justify-around items-center mt-[1rem] text-[#fdc52c]">
+            <span class="text-[1rem]">BYL</span>
+            <b class="font-normal">vs</b>
+            <span class="text-[1rem]">Fire Dragons</span>
+          </div>
+
+          <div class="block mt-[.5rem] text-left text-[#ccc]">
+            <i class="fa fa-map-marker mr-[.3rem]"></i>
+            <span>Thunder Stadium</span>
+          </div>
+
+          <div class="block mt-[.5rem] text-center">
+            <button class="block w-full mt-[2rem] px-[.4rem] py-[.2rem] bg-[#fdc52c] text-[#181733]">Buy Tickets</button>
+          </div>
+
+        </div>
+
+
+
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="team" class="block mt-5 py-20 px-7 bg-[#181733] rounded-[1rem]
+    
+    md:px-20">
+
+      <h4 class="block mt-[.2rem] text-[#fff] text-[2rem] text-center">Player Spot Light</h4>
+      <p class="block w-[75%] mt-lg mx-auto text-[#fff] text-[1rem] text-center">meet Our Start Players who make Thunder FC Unstoppable</h4>
+
+
+
+      <div class="grid grid-cols-1 grid-rows-1 gap-4 mt-10
+      
+      sm:grid-cols-2
+      md:grid-cols-4
+      md:gap-2
+      
+      ">
+
+        <div class="relative px-[1rem] py-[4rem] text-center text-[.9rem] bg-[#181733]
+        
+        border border-[#f5b701] rounded-[1rem]
+        before:absolute before:content-[''] before:left-0 before:top-6 before:bottom-6 before:bg-[#154284] before:p-3 before:rounded-tr-[1rem] before:rounded-br-[1rem]
+        after:absolute after:content-[''] after:right-0 after:top-6 after:bottom-6 after:bg-[#cd122d] after:p-3 after:rounded-tl-[1rem] after:rounded-bl-[1rem]
+        hover:bg-[#000]
+
+        ">
+
+          <!-- <image src="images/avatar.png"/> -->
+          <!-- <image src="images/ball.png"/> -->
+          <image src="https://placehold.co/400x400/transparent/F00" class="block m-auto w-[7rem] h-[7rem] rounded-[50%] bg-[#ccc]"/>
+          <h3 class="block mt-5 text-[1rem] text-[#f5b701]">Arcus Johnson</h3>
+          <b class="block mt-1 mx-auto font-normal text-[#fff]">Captain & Striker</b>
+        
+          <ul class="flex mt-6 text-xs">
+            <li class="w-[50%] text-left pl-6">
+              <i class="fa fa-futbol-o inline-block text-[#f5b701]"></i>
+              <span class="text-[#fff]">28 Goals</span>
+            </li>
+            <li class="w-[50%] text-right pr-6">
+              <i class="fa fa-diamond inline-block text-[#f5b701]"></i>
+              <span class="text-[#fff]">12 Assists</span>
+            </li>
+          </ul>
+        
+        </div>
+
+
+        <div class="relative px-[1rem] py-[4rem] text-center text-[.9rem] bg-[#181733]
+        
+        border border-[#f5b701] rounded-[1rem]
+        before:absolute before:content-[''] before:left-0 before:top-6 before:bottom-6 before:bg-[#154284] before:p-3 before:rounded-tr-[1rem] before:rounded-br-[1rem]
+        after:absolute after:content-[''] after:right-0 after:top-6 after:bottom-6 after:bg-[#cd122d] after:p-3 after:rounded-tl-[1rem] after:rounded-bl-[1rem]
+        hover:bg-[#000]
+        ">
+
+          <image src="https://placehold.co/400x400/transparent/F00" class="block m-auto w-[7rem] h-[7rem] rounded-[50%] bg-[#ccc]"/>
+          <h3 class="block mt-5 text-[1rem] text-[#f5b701]">Arcus Johnson</h3>
+          <b class="block mt-1 mx-auto font-normal text-[#fff]">Captain & Striker</b>
+        
+          <ul class="flex mt-6 text-xs">
+            <li class="w-[50%] text-left pl-6">
+              <i class="fa fa-futbol-o inline-block text-[#f5b701]"></i>
+              <span class="text-[#fff]">28 Goals</span>
+            </li>
+            <li class="w-[50%] text-right pr-6">
+              <i class="fa fa-diamond inline-block text-[#f5b701]"></i>
+              <span class="text-[#fff]">12 Assists</span>
+            </li>
+          </ul>
+        
+        </div>
+
+
+        <div class="relative px-[1rem] py-[4rem] text-center text-[.9rem] bg-[#181733]
+        
+        border border-[#f5b701] rounded-[1rem]
+        before:absolute before:content-[''] before:left-0 before:top-6 before:bottom-6 before:bg-[#154284] before:p-3 before:rounded-tr-[1rem] before:rounded-br-[1rem]
+        after:absolute after:content-[''] after:right-0 after:top-6 after:bottom-6 after:bg-[#cd122d] after:p-3 after:rounded-tl-[1rem] after:rounded-bl-[1rem]
+        hover:bg-[#000]
+        ">
+
+          <image src="https://placehold.co/400x400/transparent/F00" class="block m-auto w-[7rem] h-[7rem] rounded-[50%] bg-[#ccc]"/>
+          <h3 class="block mt-5 text-[1rem] text-[#f5b701]">Arcus Johnson</h3>
+          <b class="block mt-1 mx-auto font-normal text-[#fff]">Captain & Striker</b>
+        
+          <ul class="flex mt-6 text-xs">
+            <li class="w-[50%] text-left pl-6">
+              <i class="fa fa-futbol-o inline-block text-[#f5b701]"></i>
+              <span class="text-[#fff]">28 Goals</span>
+            </li>
+            <li class="w-[50%] text-right pr-6">
+              <i class="fa fa-diamond inline-block text-[#f5b701]"></i>
+              <span class="text-[#fff]">12 Assists</span>
+            </li>
+          </ul>
+        
+        </div>
+
+        <div class="relative px-[1rem] py-[4rem] text-center text-[.9rem] bg-[#181733]
+        
+        border border-[#f5b701] rounded-[1rem]
+        before:absolute before:content-[''] before:left-0 before:top-6 before:bottom-6 before:bg-[#154284] before:p-3 before:rounded-tr-[1rem] before:rounded-br-[1rem]
+        after:absolute after:content-[''] after:right-0 after:top-6 after:bottom-6 after:bg-[#cd122d] after:p-3 after:rounded-tl-[1rem] after:rounded-bl-[1rem]
+        hover:bg-[#000]
+        ">
+          <image src="https://placehold.co/400x400/transparent/F00" class="block m-auto w-[7rem] h-[7rem] rounded-[50%] bg-[#ccc]"/>
+          <h3 class="block mt-5 text-[1rem] text-[#f5b701]">Arcus Johnson</h3>
+          <b class="block mt-1 mx-auto font-normal text-[#fff]">Captain & Striker</b>
+        
+          <ul class="flex mt-6 text-xs">
+            <li class="w-[50%] text-left pl-6">
+              <i class="fa fa-futbol-o inline-block text-[#f5b701]"></i>
+              <span class="text-[#fff]">28 Goals</span>
+            </li>
+            <li class="w-[50%] text-right pr-6">
+              <i class="fa fa-diamond inline-block text-[#f5b701]"></i>
+              <span class="text-[#fff]">12 Assists</span>
+            </li>
+          </ul>
+        
+        </div>
+
+
+      </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="news" class="block mt-7 px-4 py-10 bg-[#181733] rounded-[1rem] sm:p-10">
+
+      <div class="block mt-4 text-[#fff] text-center">
+        <h4 class="block text-[2rem]">Latest News</h4>
+        <p>Stay updated with the latest Thunder FC news and announcements.</p>
+      </div>
+
+
+
+
+      <div class="grid grid-cols-1 grid-rows-1 gap-4 mt-10
+      
+      md:grid-cols-3">
+
+        <div class="relative px-[.4rem] py-[.4rem] text-left text-[.9rem] bg-[#181733] border border-[#f5b701] rounded-[1rem] hover:bg-[#154284]
+        ">
+
+          <image src="https://placehold.co/400x400/transparent/F00" class="block m-auto w-full h-[10rem] rounded-[.8rem] bg-[#ccc]"/>
+
+          <span class="inline-block mt-5 ml-[.4rem] px-7 py-[.1rem] text-[.8rem] text-[#f5b701] bg-[#a52a2a] rounded-[1rem]">Championship</span>
+
+          <h3 class="block mt-3 px-2 text-[1rem] text-[#f5b701]">Thunder FC Wins Final Championship</h3>
+
+          <b class="block mt-1 px-2 mx-auto font-normal text-[#fff]">Use of the order property has the same implications for accessibility as changing the direction with flex-direction.</b>
+
+          <button class="flex items-center w-[97%] mt-3 mx-auto mb-1 px-4 py-2 text-[#f5b701] bg-[#a52a2a] rounded-[.6rem] cursor-pointer hover:bg-[#f5b701] hover:text-[#a52a2a] active:bg-[#fff]">
+            <span class="inline-block ">Read more</span>
+            <i class="fa fa-arrow-right inline-block ml-auto p-[.4rem] rounded-[50%] bg-[#ccc] text-[#181733] ml-[.5rem]"></i>
+          </button>
+              
+        </div>
+
+
+        <div class="relative px-[.4rem] py-[.4rem] text-left text-[.9rem] bg-[#181733] border border-[#f5b701] rounded-[1rem] hover:bg-[#154284]
+        ">
+
+          <image src="https://placehold.co/400x400/transparent/F00" class="block m-auto w-full h-[10rem] rounded-[.8rem] bg-[#ccc]"/>
+
+          <span class="inline-block mt-5 ml-[.4rem] px-7 py-[.1rem] text-[.8rem] text-[#f5b701] bg-[#a52a2a] rounded-[1rem]">Arcus Johnson</span>
+
+          <h3 class="block mt-3 px-2 text-[1rem] text-[#f5b701]">Arcus Johnson</h3>
+
+          <b class="block mt-1 px-2 mx-auto font-normal text-[#fff]">Use of the order property has the same implications for accessibility as changing the direction with flex-direction.</b>
+
+          <button class="flex items-center w-[97%] mt-3 mx-auto mb-1 px-4 py-2 text-[#f5b701] bg-[#a52a2a] rounded-[.6rem] cursor-pointer hover:bg-[#f5b701] hover:text-[#a52a2a] active:bg-[#fff]">
+            <span class="inline-block ">Read more</span>
+            <i class="fa fa-arrow-right inline-block ml-auto p-[.4rem] rounded-[50%] bg-[#ccc] text-[#181733] ml-[.5rem]"></i>
+          </button>
+              
+        </div>
+
+
+        <div class="relative px-[.4rem] py-[.4rem] text-left text-[.9rem] bg-[#181733] border border-[#f5b701] rounded-[1rem] hover:bg-[#154284]
+        ">
+
+          <image src="https://placehold.co/400x400/transparent/F00" class="block m-auto w-full h-[10rem] rounded-[.8rem] bg-[#ccc]"/>
+
+          <span class="inline-block mt-5 ml-[.4rem] px-7 py-[.1rem] text-[.8rem] text-[#f5b701] bg-[#a52a2a] rounded-[1rem]">Arcus Johnson</span>
+
+          <h3 class="block mt-3 px-2 text-[1rem] text-[#f5b701]">Arcus Johnson</h3>
+
+          <b class="block mt-1 px-2 mx-auto font-normal text-[#fff]">Use of the order property has the same implications for accessibility as changing the direction with flex-direction.</b>
+
+          <button class="flex items-center w-[97%] mt-3 mx-auto mb-1 px-4 py-2 text-[#f5b701] bg-[#a52a2a] rounded-[.6rem] cursor-pointer hover:bg-[#f5b701] hover:text-[#a52a2a] active:bg-[#fff]">
+            <span class="inline-block ">Read more</span>
+            <i class="fa fa-arrow-right inline-block ml-auto p-[.4rem] rounded-[50%] bg-[#ccc] text-[#181733] ml-[.5rem]"></i>
+          </button>
+              
+        </div>
+
+
+      </div>
+
+
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="tickets" class="block px-3 py-6 mt-3 text-center bg-[#181733] rounded-[1rem]">
+
+      <h4 class="block mt-3 text-[2rem] text-[#fff]">Join the Brow Yellow Legion</h4>
+      
+      <p class="block w-[75%] my-2 mx-auto text-[#fdc52c]">Be part of the excitement. Get your season tickets and official merchandise today.</p>
+
+      <button class="inline-block my-3 mx-1 py-2 px-4 border border-[#181733] bg-[#a52a2a] rounded-[.5rem] text-[.75rem] text-[#fff] hover:bg-[#fff] hover:text-[#a52a2a]">
+        <i class="fa fa-diamond mr-1"></i>
+        Season Tickets 
+      </button>
+
+      <button class="inline-block my-3 mx-1 py-2 px-4 border border-[#181733] bg-[#a52a2a] rounded-[.5rem] text-[.75rem] text-[#fff] hover:bg-[#fff] hover:text-[#a52a2a]">
+        <i class="fa fa-diamond mr-1"></i>
+        Season Tickets 
+      </button>
+
+
+    </section>
+
+
+
+
+
+
+
+
+</main>
+
+
+
+
+
+
+
+
+  <footer class="block mt-4 py-2 px-2">
+    
+    <ul class="flex-wrap justify-between items-center text-[.8rem] text-[#fdc52c] sm:flex">
+
+      <li class="block w-[100%] py-2 px-0 text-center sm:w-[33.33%] sm:text-left">
+
+        <a href="" class="mr-1 p-1 border border-[#fdc52c] rounded-[.3rem] bg-[#cd122d] text-[#fdc52c] text-center hover:bg-[#fdc52c] hover:text-[#a52a2a]">
+          <i class="fa fa-facebook-square text-[.8rem]"></i>
+        </a>
+
+        <a href="" class="mr-1 p-1 border border-[#fdc52c] rounded-[.3rem] bg-[#cd122d] text-[#fdc52c] text-center hover:bg-[#fdc52c] hover:text-[#a52a2a]">
+          <i class="fa fa-twitter"></i>
+        </a>
+
+        <a href="" class="mr-1 p-1 border border-[#fdc52c] rounded-[.3rem] bg-[#cd122d] text-[#fdc52c] text-center hover:bg-[#fdc52c] hover:text-[#a52a2a]">
+          <i class="fa fa-youtube"></i>
+        </a>
+
+      </li>
+
+      <li class="block w-[100%] py-2 px-0 text-center sm:w-[33.33%] sm:text-left">
+        <span>@2025 Brown Yellow Legion. All rights reserved.</span>
+      </li>
+
+      <li class="block w-[100%] py-2 px-0 text-center sm:w-[33.33%] sm:text-right">
+        <a href="" class="ml-2 p-0 text-[#fdc52c] text-center">Privacy Policy</a>
+        <a href="" class="ml-2 p-0 text-[#fdc52c] text-center">Terms Of Services</a>
+      </li>
+
+      
+      </ul>
+        
+  </footer>
+
+
+
+</body>
